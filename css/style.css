@@ -1,0 +1,153 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color:  #2f2f53 !important;
+
+}
+.navbar-brand img{
+  margin-top: 5px;
+    width: 50px;
+    height: 40px;
+
+}
+.text{
+    color: #fff !important;
+    margin-left: 10px;
+ 
+}
+.navbar-brand p{
+    width: 20px;
+
+font-size: 10px;
+color: rgb(182, 176, 176) !important;
+
+}
+.navbar-brand span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-item{
+    margin: 10px;
+}
+.nav-link{
+    color: #fff;
+    padding: 10px 20px !important;
+    border-radius: 50px;
+   
+}
+.active{
+    color: RGB(0, 154, 216) !important;
+    border: RGB(0, 154, 216) 2px solid;
+    /* border: RGB(0, 154, 216) 3px dashed; */
+
+}
+.nav-item:hover .nav-link {
+    color: RGB(0, 154, 216) !important;
+    border: RGB(0, 154, 216) 2px solid;
+
+
+}
+/* header{
+    background-color: #53538f;
+
+} */
+header{
+    width: 100%;
+    background-image: url("../weather/osman-rana-GXEZuWo5m4I-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+
+}
+input{
+   
+    background-color:#2f2f30 !important;
+    color: #fff !important;
+    border: none !important;
+}
+.find{
+    text-align: center;
+    background-color: RGB(0, 154, 216) !important ;
+    border: RGB(0, 154, 216) 2px solid;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 10px 30px;
+
+}
+.icon img{
+    width: 20px;
+    height: 20px;
+
+    margin: 0px 10px;
+}
+
+.row{
+    /* border: #2d2d53 solid 2px; */
+    
+    background-color: #2f2f53;
+
+}
+.c{
+    background-color: #2f2f53;
+
+}
+.center-col{
+    background-color: #3e495f !important;
+
+}
+.center-col h3{
+    font-size: 20px;
+    color: rgb(179, 173, 173);
+}
+.col h1{
+    font-size: 60px;
+   
+}
+.col h1 span{
+    font-size: 70px;
+    font-weight:600;
+}
+section{
+    background-color: #53538f;
+
+    height: 40vh;
+}
+footer{
+    background-color: #2f2f53;
+    height: 40vh;
+
+}
+.sub{
+    text-align: center;
+    color: #fff;
+    background-color: RGB(0, 154, 216) !important ;
+    border: RGB(0, 154, 216) 2px solid;
+    top: 35%;
+    right: 0%;
+   
+    padding: 10px 30px;
+    margin: 0px 5px;
+    
+}
+.icon-footer{
+    background-color: #2f2f30;
+    margin: 5px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 20px;
+}
+.icon-footer i{
+    font-size: 20px;
+    color: RGB(0, 154, 216);
+   
+}
+.icon-footer:hover, .icon-footer:hover.icon-footer i{
+    background-color: RGB(0, 154, 216);
+   color: #fff;
+
+}
